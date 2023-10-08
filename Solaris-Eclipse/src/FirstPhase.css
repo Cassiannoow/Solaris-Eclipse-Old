@@ -1,0 +1,84 @@
+.PopUp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(53, 53, 53);
+    border-radius: 25px;
+    transition: 0.5s;
+}
+
+#Foguete{
+    cursor: pointer;
+}
+
+#username{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid black;
+    color: white;
+    width: 350px;
+    margin: 25px;
+    height: 50px;
+    font-size: 28px;
+}
+
+#username:focus{
+    border: none;
+    border-bottom: 2px solid black;
+    box-shadow: none;
+    outline: 0;
+}
+
+#username::placeholder{
+    color: white;
+    font-size: 28px;
+}
+
+#username:-webkit-autofill,
+#username:-webkit-autofill:hover,
+#username:-webkit-autofill:focus {
+    border: none;
+    border: 2px solid black;
+    background-color: transparent;
+    color: white;
+}
+
+#astronautinha{
+    width: 400px;
+    animation: respiration 5s ease infinite;
+}
+
+@keyframes respiration {
+    50%{
+      margin-bottom: 50px;
+      transform: scale(1.1);
+    }
+    100%{
+      margin-bottom: 0px;
+    }
+}
+
+.TextBoxArea{
+    background-color: #cccccc25;
+    border-radius: 25px;
+    padding: 15px;
+    padding-left: 50px;
+    text-align: left;
+}
+
+.messagemarea{
+    width: 900px;
+    font-size: 30px;
+}
+
+.AstroChat{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    content-visibility: hidden;
+    transition: 0.5s;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
