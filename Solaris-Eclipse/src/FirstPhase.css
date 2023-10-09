@@ -44,31 +44,32 @@
 }
 
 #astronautinha{
-    width: 400px;
-    animation: respiration 5s ease infinite;
+    width: 300px;
+    animation: respiration alternate-reverse 2.5s ease infinite;
 }
 
 @keyframes respiration {
-    50%{
-      margin-bottom: 50px;
-      transform: scale(1.1);
-    }
     100%{
-      margin-bottom: 0px;
+        margin-bottom: 50px;
+        transform: scale(1.1);
     }
 }
 
 .TextBoxArea{
+    display: flex;
     background-color: #cccccc25;
     border-radius: 25px;
     padding: 15px;
     padding-left: 50px;
     text-align: left;
+    z-index: 1;
+    align-items:end;
 }
 
 .messagemarea{
     width: 900px;
-    font-size: 30px;
+    font-size: 26px;
+    z-index: 1;
 }
 
 .AstroChat{
@@ -76,9 +77,29 @@
     justify-content: center;
     align-items: center;
     content-visibility: hidden;
-    transition: 0.5s;
     width: 100%;
     position: absolute;
     bottom: 0;
     left: 0;
+    height: 350px;
+}
+
+#SolarEclipse{
+    content-visibility: hidden;
+    animation: scaleup 5s ease-in-out infinite alternate-reverse;
+}
+
+@keyframes scaleup {
+    0%{
+        transform: scale(1);
+    }
+    100%{
+      transform: scale(1.1);
+    }
+}
+
+.seta{
+    height: 50px;
+    cursor: pointer;
+    bottom: 0;
 }

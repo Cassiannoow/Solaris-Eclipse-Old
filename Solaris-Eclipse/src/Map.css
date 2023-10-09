@@ -1,0 +1,42 @@
+.MapChat{
+    display: flex;
+    text-align: left;
+    font-size: 40px;
+    align-items: center;
+}
+
+#earthtomap{
+    width: 150px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: 50px 100px;
+    animation: scaleup 50s ease alternate-reverse infinite;
+    cursor: pointer;
+}
+
+#worldmap{
+    width: 1200px;
+}
+
+#MapLL{
+    display: flex;
+    content-visibility: hidden;
+    align-items: center;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    margin: 25px;
+    transition: 0.5s;
+}
+
+
+a:hover{
+    border-bottom: 2px solid white;
+    transition: 0.5s;
+}

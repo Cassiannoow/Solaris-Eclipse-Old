@@ -47,7 +47,7 @@
   justify-content: space-between;
   align-items: center;
   font-size: 28px;
-  animation: respiration 4s ease infinite;
+  animation: respiration alternate-reverse 4s ease infinite;
 }
 
 @keyframes respiration {
@@ -77,7 +77,8 @@
   border: 2px solid white;
   width: 250px;
   cursor: pointer;
-  transition: 0.5s;animation: none;
+  transition: 0.5s;
+  animation: none;
   margin-top: 500px;
   position: fixed;
 }

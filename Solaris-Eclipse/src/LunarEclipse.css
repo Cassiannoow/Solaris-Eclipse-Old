@@ -1,0 +1,24 @@
+#MidForEarth{
+    rotate: 180deg;
+    width: 312px;
+    margin-top: 18px;
+    margin-left: -10px;
+    margin-right: -160px;
+    z-index: 1;
+}
+
+#EarthForMoon{
+    margin-left: -150px;
+    margin-top: 15px;
+    height: 250px;
+    width: 400px;
+    z-index: 3;
+    overflow: hidden;
+    margin-right: -240px;
+}
+
+#SunforMid{
+    width: 380px;
+    z-index: 1;
+    margin-left: -200px;
+}

@@ -1,0 +1,50 @@
+.Eclipse{
+    display: flex;
+    align-items: center;
+}
+
+#sun{
+    animation: scaleup 30s ease alternate-reverse infinite;
+}
+
+#moon{
+    animation: scaleup 40s ease alternate-reverse infinite;
+    margin-top: 14px;
+    z-index: 2;
+}
+
+#earth{
+    animation: scaleup 50s ease alternate-reverse infinite;
+}
+
+@keyframes scaleup {
+    0%{
+        transform: scale(1);
+    }
+    100%{
+      transform: scale(1.1);
+      transform: rotate(180deg);
+    }
+}
+
+#LuzSolforMid{
+    margin-left: -210px;
+    z-index: 2;
+}
+
+#MidForMoon{
+    rotate: 180deg;
+    width: 115px;
+    z-index: 3;
+    margin-top: 14px;
+    margin-left: -10px;
+    margin-right: -80px;
+}
+
+#MoonForEarth{
+    rotate: 180deg;
+    width: 180px;
+    z-index: 1;
+    margin-left: -100px;
+    margin-right: -80px;
+}
