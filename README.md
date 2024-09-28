@@ -1,3 +1,4 @@
-# Solaris-Eclipse
-
-Solaris Eclipse, born as a homage to the solar eclipse, has a mission to provide an educational journey - through user interactions - to learn about eclipses and their influence on both Earth and life. Designed in the form of a game, it was created with the purpose of capturing the user's interest, thereby encouraging their learning and appreciation of this phenomenon.
+<samp>
+  <h1>🌒 Solaris-Eclipse - Legacy</h1>
+  <p>Solaris Eclipse, created for a NASA hackathon, is an old project inspired by solar eclipses. It aims to provide an educational journey through user interactions. Designed as an engaging game, it encourages users to learn about eclipses and their impact on Earth and life. Though it's an earlier creation, it showcases my passion for blending education with entertainment.</p>
+</samp>
